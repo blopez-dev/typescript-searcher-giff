@@ -1,25 +1,26 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "baseUrl": "./",
+    "jsx": "react",
+    "target": "es5",
     "module": "ESNext",
+    "strict": false,
+    "allowJs": true,
+    "sourceMap": true,
+    "listFiles": false,
     "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noImplicitAny": false,
+    "listEmittedFiles": false,
+    "strictNullChecks": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "*": ["@types/*"],
+      "@/*": ["src/*"],
+      "#/*": ["test/*"]
+    },
+    "lib": ["es5", "es6", "es7", "es2017", "es2018", "es2019", "es2020", "dom"]
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src/**/*", "test/**/*", "@types"],
+  "exclude": ["node_modules/**", "config/**"]
 }
