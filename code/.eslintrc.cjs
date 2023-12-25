@@ -95,14 +95,6 @@ module.exports = {
                 "^react",
                 "^@?\\w"
               ],
-              // amiga-fwk
-              [
-                "^@amiga-fwk-web"
-              ],
-              // sisu-ds
-              [
-                "^sisu-ds"
-              ],
               // Internal packages.
               [
                 "^(@|components)(/.*|$)"
@@ -152,10 +144,6 @@ module.exports = {
         "no-undef": "off"
       }
     }
-  ],
-  "extends": [
-    "@inditex/eslint-config/typescript",
-    "@inditex/eslint-config/react-ts"
   ],
   "plugins": [
     "simple-import-sort"
