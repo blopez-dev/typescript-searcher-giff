@@ -1,0 +1,209 @@
+{
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "at-rule-name-case": [
+      "lower",
+      {
+        "message": "Las propiedades siempre en minúsculas"
+      }
+    ],
+    "at-rule-name-space-after": "always-single-line",
+    "at-rule-semicolon-newline-after": [
+      "always",
+      {
+        "message": "Punto y coma = return"
+      }
+    ],
+    "block-closing-brace-newline-before": [
+      "always",
+      {
+        "message": "La llave de cierre siempre va sola."
+      }
+    ],
+    "block-no-empty": [
+      true,
+      {
+        "message": "Propiedad vacía !!!"
+      }
+    ],
+    "block-opening-brace-newline-after": [
+      "always",
+      {
+        "message": "Llave de apertura siempre va sola"
+      }
+    ],
+    "block-opening-brace-space-before": [
+      "always",
+      {
+        "message": "Propiedad y llave siempre separadas por un espacio"
+      }
+    ],
+    "color-hex-case": "lower",
+    "color-hex-length": [
+      "long",
+      {
+        "message": "El formato debe ser: #333333"
+      }
+    ],
+    "color-no-invalid-hex": [
+      true,
+      {
+        "message": "En la vida eso será un color"
+      }
+    ],
+    "comment-whitespace-inside": "always",
+    "declaration-bang-space-before": [
+      "always",
+      {
+        "message": "Dar espacio de separación al !important"
+      }
+    ],
+    "declaration-block-no-duplicate-properties": [
+      true,
+      {
+        "message": "Propiedades repetidas. Seguro que has copiado y pegado de algún sitio."
+      }
+    ],
+    "declaration-block-semicolon-space-before": [
+      "never",
+      {
+        "message": "Espacio antes del ;"
+      }
+    ],
+    "declaration-block-single-line-max-declarations": [
+      1,
+      {
+        "message": "Declaración por línea. La legibilidad es innegociable!!"
+      }
+    ],
+    "declaration-block-trailing-semicolon": [
+      "always",
+      {
+        "message": "Te has dejado un ; nada más que decir ¿no?"
+      }
+    ],
+    "declaration-colon-space-after": [
+      "always",
+      {
+        "message": "Después de : siempre se deja espacio"
+      }
+    ],
+    "function-calc-no-unspaced-operator": [
+      true,
+      {
+        "message": "Los operadores matematicos siempre van acompañados de un espacio, antes y después. Siempre"
+      }
+    ],
+    "function-comma-space-after": [
+      "always",
+      {
+        "message": "Después de , siempre se deja espacio"
+      }
+    ],
+    "function-linear-gradient-no-nonstandard-direction": true,
+    "function-max-empty-lines": 0,
+    "function-name-case": [
+      "lower",
+      {
+        "message": "Usar minúsculas para las funciones"
+      }
+    ],
+    "function-whitespace-after": [
+      "always",
+      {
+        "message": "spacebar"
+      }
+    ],
+    "keyframe-declaration-no-important": [
+      true,
+      {
+        "message": "Quita el important del keyframes."
+      }
+    ],
+    "indentation": 2,
+    "length-zero-no-unit": true,
+    "max-empty-lines": 2,
+    "max-nesting-depth": [
+      3,
+      {
+        "message": "No, no y no. Deja de abusar del nesting"
+      }
+    ],
+    "media-feature-colon-space-after": "always",
+    "media-feature-colon-space-before": "never",
+    "media-feature-range-operator-space-after": "always",
+    "media-feature-range-operator-space-before": "always",
+    "media-query-list-comma-newline-after": "always-multi-line",
+    "media-query-list-comma-space-after": "always-single-line",
+    "media-query-list-comma-space-before": "never",
+    "no-duplicate-at-import-rules": true,
+    "no-eol-whitespace": [
+      true,
+      {
+        "message": "A borrar los espacios !!!"
+      }
+    ],
+    "no-extra-semicolons": [
+      true,
+      {
+        "message": "Te sobra un ;"
+      }
+    ],
+    "number-leading-zero": [
+      "never",
+      {
+        "message": "No se permiten ceros a la izquierda para números fraccionarios menores que 1. Ejemplo: 0.5"
+      }
+    ],
+    "number-no-trailing-zeros": [
+      true,
+      {
+        "message": "No se permiten los ceros finales en los números. Ejemplo: 1.0"
+      }
+    ],
+    "property-case": [
+      "lower",
+      {
+        "message": "En minúsculas."
+      }
+    ],
+    "property-no-unknown": [
+      true,
+      {
+        "message": "Propiedad desconocida."
+      }
+    ],
+    "selector-attribute-brackets-space-inside": "never",
+    "selector-attribute-operator-space-after": "never",
+    "selector-attribute-operator-space-before": "never",
+    "selector-combinator-space-after": [
+      "always",
+      {
+        "message": "Espacio entre selectores"
+      }
+    ],
+    "selector-combinator-space-before": [
+      "always",
+      {
+        "message": "Espacio entre selectores"
+      }
+    ],
+    "selector-list-comma-space-before": "never",
+    "selector-max-empty-lines": 0,
+    "selector-pseudo-class-no-unknown": true,
+    "selector-pseudo-class-parentheses-space-inside": "never",
+    "selector-pseudo-element-colon-notation": [
+      "double",
+      {
+        "message": "Los pseudo-elementos deben usar la notación de dos puntos."
+      }
+    ],
+    "selector-pseudo-element-no-unknown": true,
+    "selector-type-no-unknown": true,
+    "string-no-newline": true,
+    "string-quotes": "double",
+    "unit-case": "lower",
+    "unit-no-unknown": true
+  },
+  "validate": ["scss"]
+}
